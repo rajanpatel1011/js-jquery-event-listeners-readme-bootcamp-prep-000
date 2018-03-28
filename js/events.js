@@ -9,6 +9,7 @@ function frameIt(){
     ('img').addClass("tasty");
   });
 }
+/*
 function PressIt(){
   $('document').on("keydown",function(key){
     if(key.which=='g'){
@@ -19,7 +20,7 @@ function PressIt(){
     }
   });
 }
-
+*/
 function submitIt(){
   $('form').on("submit",function(){
     alert("Your form is going to be submitted now.");
