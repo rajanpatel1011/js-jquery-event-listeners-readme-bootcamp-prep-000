@@ -6,7 +6,8 @@ function getIt(){
 }
 function frameIt(){
   $(document).on("load",function(){
-    ('img').attr("class","tasty");
+    ('img').addClass
+  ("class","tasty");
   });
 }
 /*
