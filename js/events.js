@@ -4,23 +4,7 @@ function getIt(){
     alert("Hey!");
   });
 }
-function frameIt(){
-  $('img').on("load",function(){
-    ('img').addClass("tasty");
-  });
-}
-/*
-function PressIt(){
-  $('document').on("keydown",function(key){
-    if(key.which=='g'){
-     alert("pressed G!");
-    }
-    if(key.which!='g'){
-      alert("not G key pressed");
-    }
-  });
-}
-*/
+
 function submitIt(){
   $('form').on("submit",function(){
     alert("Your form is going to be submitted now.");
