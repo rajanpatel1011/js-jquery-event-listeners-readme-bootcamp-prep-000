@@ -4,7 +4,11 @@ function getIt(){
     alert("Hey!");
   });
 }
-function 
+function frameIt(){
+  $('img').on("click",function(){
+    $('img').addClass("tasty");
+  });
+}
 
 
 function submitIt(){
