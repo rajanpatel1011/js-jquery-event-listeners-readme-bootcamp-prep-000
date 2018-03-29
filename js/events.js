@@ -5,7 +5,7 @@ function getIt(){
   });
 }
 function frameIt(){
-  $('img').on("click",function(){
+  $('body').on("click",function(){
     $('img').addClass("tasty");
   });
 }
