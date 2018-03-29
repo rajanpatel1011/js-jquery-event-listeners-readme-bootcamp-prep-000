@@ -4,6 +4,8 @@ function getIt(){
     alert("Hey!");
   });
 }
+fu
+
 
 function submitIt(){
   $('form').on("submit",function(){
