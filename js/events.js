@@ -4,7 +4,7 @@ function getIt(){
     alert("Hey!");
   });
 }
-fu
+function 
 
 
 function submitIt(){
